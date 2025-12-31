@@ -1,16 +1,54 @@
-## Hi there 👋
+# 🎨 漫画世界 (ComicWorld)
 
-<!--
-**shenqimanhua/shenqimanhua** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+欢迎来到 **神奇漫画**！这是一个专注于分享、推荐和探索漫画的站点。无论你是热爱经典日漫、韩漫、国漫，还是喜欢新兴的独立漫画，这里都能找到属于你的乐趣。
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌟 网站特色
+
+- 📚 **海量漫画资源**：涵盖日漫、韩漫、国漫等多种类型  
+- 🔍 **智能推荐系统**：根据你的阅读偏好推荐漫画  
+- 📰 **漫画资讯**：最新的漫画新闻、作者动态、行业趋势  
+- 💬 **社区互动**：与其他漫画爱好者交流、分享心得  
+
+---
+
+## 🚀 快速访问
+
+👉 [点击进入神奇漫画世界](https://www.shenqimanhua.com)
+
+---
+
+## 📖 示例内容
+
+- **热门连载**：《老师的亲密指导》《最强家丁》《花容湿色:取花点》  
+- **经典推荐**：《秘密教学》《Beautiful Days》《Set up!排球少女》  
+- **独立佳作**：探索小众但精彩的独立漫画作品
+
+---
+
+## 🛠 技术栈
+
+本网站基于以下技术构建：
+- **Next.js**：现代化的 React 框架  
+- **Tailwind CSS**：快速开发美观 UI  
+
+---
+
+## 🤝 如何贡献
+
+欢迎大家参与贡献：
+1. 提交你喜欢的漫画推荐  
+2. 分享漫画相关的文章或评论  
+3. 在 GitHub 提交 Issue 或 PR  
+
+---
+
+## 📬 联系我们
+
+- 官方网站：[https://www.shenqimanhua.com](https://www.shenqimanhua.com)  
+- GitHub：[https://github.com/shenqimanhua](https://github.com/shenqimanhua)
+
+---
+
+> 💡 **提示**：本项目旨在推广漫画文化，所有资源仅供学习与交流，请支持正版漫画！
