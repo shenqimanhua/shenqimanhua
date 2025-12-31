@@ -1,1 +1,518 @@
-hi
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>神奇漫画入口 - 热门连载、最新资讯与精选推荐</title>
+    <meta name="description" content="神奇漫画：汇聚日漫、国漫、美漫的热门连载与独家推荐。即时更新章节、作者资讯与社区讨论，带你发现下一部必追漫画。" />
+    <meta name="keywords" content="神奇漫画官网, 漫画, 连载, 漫画推荐, 国漫, 日漫, 漫画资讯, 漫画社区" />
+    <link rel="canonical" href="https://shenqimanhua.github.io" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="神奇漫画入口 - 热门连载、最新资讯与精选推荐" />
+    <meta property="og:description" content="汇聚日漫、国漫、美漫的热门连载与独家推荐。即时更新章节、作者资讯与社区讨论。" />
+    <meta property="og:url" content="https://shenqimanhua.github.io" />
+    <meta property="og:image" content="https://shenqimanhua.github.io/logo.webp" />
+
+    <!-- JSON-LD 补充 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "神奇漫画官方入口",
+      "url": "https://shenqimanhua.github.io",
+      "description": "神奇漫画入口：汇聚日漫、国漫、美漫的热门连载与独家推荐。即时更新章节、作者资讯与社区讨论，带你发现下一部必追漫画。",
+      "inLanguage": "zh-CN",
+      "image": "https://shenqimanhua.github.io/logo.webp",
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "神奇漫画官方入口",
+      "url": "https://shenqimanhua.github.io",
+      "logo": "https://shenqimanhua.github.io/logo.webp",
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Book",
+          "name": "老师的亲密指导",
+          "author": [
+            {"@type": "Person","name": "NOKO"},
+            {"@type": "Person","name": "云河尹"}
+          ],
+          "genre": ["校园", "都市"],
+          "url": "https://www.shenqimanhua.com/comic/cmina7txoj02fnkk6ozhclwnn",
+          "image": "https://shenqimanhua.github.io/laoshideqingmizhidao.webp"
+        },
+        {
+          "@type": "Book",
+          "name": "韶恩",
+          "author": [
+            {"@type": "Person","name": "远德"}
+          ],
+          "genre": ["都市", "恋爱"],
+          "url": "https://www.shenqimanhua.com/comic/cmina7ib8i6hmnkk6thkerhcm",
+          "image": "https://shenqimanhua.github.io/shaoen.webp"
+        },
+        {
+          "@type": "Book",
+          "name": "继母与继姐",
+          "author": [
+            {"@type": "Person","name": "家和万事兴"},
+            {"@type": "Person","name": "甘蔗"},
+            {"@type": "Person","name": "金世兰"}
+          ],
+          "genre": ["欲望", "禁忌"],
+          "url": "https://www.shenqimanhua.com/comic/cmina1z4o4esonkk6khkd0zff",
+          "image": "https://shenqimanhua.github.io/jimuyujijie.webp"
+        },
+        {
+          "@type": "Book",
+          "name": "Set up!排球少女",
+          "author": [
+            {"@type": "Person","name": "金Zetta"},
+            {"@type": "Person","name": "金文图"}
+          ],
+          "genre": ["都市", "热血"],
+          "url": "https://www.shenqimanhua.com/comic/cmina838bjp7wnkk67exunlmx",
+          "image": "https://shenqimanhua.github.io/setuppaiqiushaonv.webp"
+        },
+        {
+          "@type": "Book",
+          "name": "私密视角",
+          "author": [
+            {"@type": "Person","name": "叮精灵"},
+            {"@type": "Person","name": "都米"},
+            {"@type": "Person","name": "野格炸弹"}
+          ],
+          "genre": ["都市", "奇幻"],
+          "url": "https://www.shenqimanhua.com/comic/cmig0k4ed4njei8rx24fhgc8g",
+          "image": "https://shenqimanhua.github.io/shimishijiao.webp"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            /* 低饱和暖色系 */
+            --bg: #f6eef4;
+            /* 暖米色背景 */
+            --panel: #efe6dd;
+            /* 浅奶油卡片 */
+            --muted: #8b6f5b;
+            /* 暖灰褐色文字 */
+            --accent: #c77b5a;
+            /* 柔和珊瑚（主色） */
+            --accent-2: #b58a6b;
+            /* 次要暖色 */
+            --card: #f3ebe3;
+            /* 卡片背景 */
+            --shadow: rgba(139, 111, 91, 0.08);
+            --maxw: 1100px;
+            font-family: "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+            color: var(--muted);
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased
+        }
+
+        .wrap {
+            max-width: var(--maxw);
+            margin: 36px auto;
+            padding: 28px
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px
+        }
+
+        .logo {
+            width: 56px;
+            height: 56px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #fff;
+            font-size: 20px;
+            box-shadow: 0 6px 18px var(--shadow);
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 0;
+            color: #5a4638
+        }
+
+        p.lead {
+            color: var(--muted);
+            margin: 6px 0 0;
+            font-size: 14px
+        }
+
+        nav a {
+            text-decoration: none
+        }
+
+        .hero {
+            margin: 28px 0;
+            padding: 28px;
+            border-radius: 14px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5));
+            box-shadow: 0 10px 30px rgba(102, 84, 66, 0.06);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid rgba(139, 111, 91, 0.06);
+        }
+
+        .hero-left {
+            flex: 1;
+            min-width: 260px
+        }
+
+        .hero-right {
+            width: 360px;
+            min-width: 220px
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(199, 123, 90, 0.12);
+            color: var(--accent);
+            font-size: 13px;
+            margin-bottom: 12px
+        }
+
+        h2 {
+            color: #5a4638;
+            margin: 8px 0 6px;
+            font-size: 22px
+        }
+
+        .desc {
+            color: var(--muted);
+            margin-top: 10px;
+            line-height: 1.6
+        }
+
+        /* 明显的进入主站按钮（居中视觉） */
+        .cta-wrap {
+            margin-top: 18px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 14px 26px;
+            border-radius: 12px;
+            background: var(--accent);
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(199, 123, 90, 0.12);
+            font-size: 16px;
+            transition: transform .16s, box-shadow .16s;
+        }
+
+        .cta:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 40px rgba(199, 123, 90, 0.16)
+        }
+
+        .cta.secondary {
+            background: transparent;
+            border: 1px solid rgba(139, 111, 91, 0.12);
+            color: var(--muted);
+            font-weight: 600;
+            padding: 12px 20px;
+            box-shadow: none;
+        }
+
+        .meta-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 14px;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        /* 卡片网格 */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            /* 一排5个卡片 */
+            gap: 16px;
+            margin-top: 22px
+        }
+
+        @media (max-width:1000px) {
+            .cards {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width:820px) {
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width:520px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 8px 20px rgba(102, 84, 66, 0.04);
+            transition: transform .18s;
+            border: 1px solid rgba(139, 111, 91, 0.04)
+        }
+
+        .card:hover {
+            transform: translateY(-6px)
+        }
+
+        .thumb {
+            width: 100%;
+            /* height: 140px; */
+            border-radius: 8px;
+            background: #e9e0d8;
+            display: block;
+            object-fit: cover
+        }
+
+        .title {
+            font-weight: 700;
+            margin: 10px 0 6px;
+            color: #5a4638
+        }
+
+        .sub {
+            color: var(--muted);
+            font-size: 13px;
+            margin: 0
+        }
+
+        /* 中央强调区域（可选） */
+        .center-cta {
+            margin: 28px auto 0;
+            padding: 18px;
+            border-radius: 12px;
+            background: linear-gradient(90deg, rgba(199, 123, 90, 0.06), rgba(181, 138, 107, 0.04));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            max-width: 720px;
+            border: 1px solid rgba(139, 111, 91, 0.04);
+        }
+
+        .center-cta p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 15px;
+            white-space: normal;
+            word-break: break-all;
+            width: auto;
+            flex: 1 1 0;
+        }
+
+        footer {
+            margin-top: 34px;
+            color: var(--muted);
+            font-size: 13px;
+            text-align: center
+        }
+
+        @media (max-width:820px) {
+            .hero {
+                flex-direction: column;
+                padding: 20px
+            }
+
+            .hero-right {
+                width: 100%
+            }
+
+            .cta-wrap {
+                justify-content: flex-start
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="brand">
+                <div class="logo">
+                    <img src="./logo.webp" alt="神奇漫画 Logo"
+                        style="width:100%;height:100%;object-fit:cover;border-radius:10px;" />
+                </div>
+                <div>
+                    <h1>神奇漫画入口</h1>
+                    <p class="lead">热门连载 · 精选推荐 · 实时更新章节</p>
+                </div>
+            </div>
+            <nav>
+                <a class="cta secondary" href="https://www.shenqimanhua.com">访问主站</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-left">
+                    <span class="badge">每日更新 · 精选推荐</span>
+                    <h2 id="hero-title">发现下一部你会爱上的漫画</h2>
+                    <p class="desc">
+                        汇聚日漫、国漫与韩漫的热门连载与独家推荐。按题材、评分与更新频率智能筛选，带你快速找到最合口味的作品与最新章节。
+                    </p>
+
+                    <div class="cta-wrap">
+                        <a class="cta" href="https://www.shenqimanhua.com" title="进入神奇漫画主站">进入主站</a>
+                        <a class="cta secondary" href="https://www.shenqimanhua.com/comics">立即探索</a>
+                    </div>
+
+                    <div class="meta-row" style="margin-top:14px">
+                        <div>📅 <strong>每日更新</strong></div>
+                        <div>🔥 <strong>热门榜单</strong></div>
+                        <div>💬 <strong>社区讨论</strong></div>
+                    </div>
+                </div>
+
+                <div class="hero-right" aria-hidden="true">
+                    <a href="https://www.shenqimanhua.com/comic/cmina7txoj02fnkk6ozhclwnn" title="推荐老师的亲密指导漫画">
+                        <img src="./main.webp" alt="老师的亲密指导"
+                            style="width:100%;border-radius:10px;display:block;object-fit:cover;" />
+                    </a>
+                </div>
+            </section>
+
+            <!-- 中央强调 CTA（视觉聚焦） -->
+            <div class="center-cta" role="region" aria-label="进入主站快速入口">
+                <p>想看最新章节或完整榜单？点击下方按钮直接进入神奇漫画主站。</p>
+                <a class="cta" href="https://www.shenqimanhua.com">立即进入</a>
+            </div>
+
+            <section aria-labelledby="hot-title" style="margin-top:22px">
+                <h3 id="hot-title" style="margin:0 0 12px;color:#5a4638">热门漫画推荐</h3>
+                <div class="cards">
+                    <!-- 卡片 1 -->
+                    <article class="card" itemscope itemtype="https://schema.org/Book">
+                        <a href="https://www.shenqimanhua.com/comic/cmina7txoj02fnkk6ozhclwnn" title="老师的亲密指导漫画页面"
+                            target="_blank" rel="noopener">
+                            <img class="thumb" src="./laoshideqingmizhidao.webp" alt="老师的亲密指导漫画封面" />
+                        </a>
+                        <div class="title" itemprop="name">
+                            <a href="https://www.shenqimanhua.com/comic/cmina7txoj02fnkk6ozhclwnn" target="_blank"
+                                rel="noopener" style="color:inherit;text-decoration:none;">老师的亲密指导</a>
+                        </div>
+                        <p class="sub">作者：NOKO&云河尹 · 类型：校园 / 都市</p>
+                    </article>
+
+                    <!-- 卡片 2 -->
+                    <article class="card" itemscope itemtype="https://schema.org/Book">
+                        <a href="https://www.shenqimanhua.com/comic/cmina7ib8i6hmnkk6thkerhcm" title="韶恩漫画页面"
+                            target="_blank" rel="noopener">
+                            <img class="thumb" src="./shaoen.webp" alt="韶恩漫画封面" />
+                        </a>
+                        <div class="title" itemprop="name">
+                            <a href="https://www.shenqimanhua.com/comic/cmina7ib8i6hmnkk6thkerhcm" target="_blank"
+                                rel="noopener" style="color:inherit;text-decoration:none;">韶恩</a>
+                        </div>
+                        <p class="sub">作者：远德 · 类型：都市 / 恋爱</p>
+                    </article>
+
+                    <!-- 卡片 3 -->
+                    <article class="card" itemscope itemtype="https://schema.org/Book">
+                        <a href="https://www.shenqimanhua.com/comic/cmina1z4o4esonkk6khkd0zff" title="继母与继姐漫画页面"
+                            target="_blank" rel="noopener">
+                            <img class="thumb" src="./jimuyujijie.webp" alt="继母与继姐漫画封面" />
+                        </a>
+                        <div class="title" itemprop="name">
+                            <a href="https://www.shenqimanhua.com/comic/cmina1z4o4esonkk6khkd0zff" target="_blank"
+                                rel="noopener" style="color:inherit;text-decoration:none;">继母与继姐</a>
+                        </div>
+                        <p class="sub">作者：家和万事兴&甘蔗&金世兰 · 类型：欲望 / 禁忌</p>
+                    </article>
+
+                    <!-- 卡片 4 -->
+                    <article class="card" itemscope itemtype="https://schema.org/Book">
+                        <a href="https://www.shenqimanhua.com/comic/cmina838bjp7wnkk67exunlmx" title="Set up!排球少女漫画页面"
+                            target="_blank" rel="noopener">
+                            <img class="thumb" src="./setuppaiqiushaonv.webp" alt="Set up!排球少女漫画封面" />
+                        </a>
+                        <div class="title" itemprop="name">
+                            <a href="https://www.shenqimanhua.com/comic/cmina838bjp7wnkk67exunlmx" target="_blank"
+                                rel="noopener" style="color:inherit;text-decoration:none;">Set up!排球少女</a>
+                        </div>
+                        <p class="sub">作者：金Zetta&金文图 · 类型：都市 / 热血</p>
+                    </article>
+
+                    <!-- 卡片 5 -->
+                    <article class="card" itemscope itemtype="https://schema.org/Book">
+                        <a href="https://www.shenqimanhua.com/comic/cmig0k4ed4njei8rx24fhgc8g" title="私密视角漫画页面"
+                            target="_blank" rel="noopener">
+                            <img class="thumb" src="./shimishijiao.webp" alt="私密视角漫画封面" />
+                        </a>
+                        <div class="title" itemprop="name">
+                            <a href="https://www.shenqimanhua.com/comic/cmig0k4ed4njei8rx24fhgc8g" target="_blank"
+                                rel="noopener" style="color:inherit;text-decoration:none;">私密视角</a>
+                        </div>
+                        <p class="sub">作者：叮精灵&都米&野格炸弹 · 类型：都市 / 奇幻</p>
+                    </article>
+                </div>
+            </section>
+
+            <section style="margin-top:22px">
+                <h4 style="margin:0 0 10px;color:#5a4638">更多推荐</h4>
+                <p style="color:var(--muted);margin:0 0 8px">按题材、评分、更新频率筛选，或访问主站查看完整榜单与最新章节。</p>
+                <a class="cta" style="margin:16px 0 16px" href="https://www.shenqimanhua.com/ranking">查看完整榜单</a>
+            </section>
+        </main>
+
+        <footer>
+            © <strong>神奇漫画</strong> · 保护版权，支持正版 · <a href="https://www.shenqimanhua.com"
+                style="color:var(--muted);text-decoration:underline">隐私与使用条款</a>
+        </footer>
+    </div>
+</body>
+
+</html>
