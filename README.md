@@ -44,6 +44,15 @@
 
 ---
 
+## 🙏 特别感谢
+
+- 感谢所有漫画创作者与出版社的辛勤付出  
+- 感谢热心社区成员的积极参与和支持  
+  - [精品漫画网站推荐](https://site-7f5mmbugl.godaddysites.com)
+  - [神奇漫画入口](https://shenqimanhua.github.io/)
+
+---
+
 ## 📬 联系我们
 
 - 官方网站：[https://www.shenqimanhua.com](https://www.shenqimanhua.com)  
