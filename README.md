@@ -15,7 +15,7 @@
 
 ## 🚀 快速访问
 
-👉 [点击进入神奇漫画世界](https://www.shenqimanhua.com)
+👉 [点击进入神奇漫画](https://www.shenqimanhua.com)
 
 ---
 
