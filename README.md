@@ -50,6 +50,7 @@
 - 感谢热心社区成员的积极参与和支持  
   - [精品漫画网站推荐](https://site-7f5mmbugl.godaddysites.com)
   - [神奇漫画入口](https://shenqimanhua.github.io/)
+  - [漫画APP](https://sqmh.app/)
 
 ---
 
