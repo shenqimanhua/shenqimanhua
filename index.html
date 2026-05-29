@@ -25,7 +25,7 @@
       "url": "https://shenqimanhua.github.io",
       "description": "神奇漫画入口：汇聚日漫、国漫、美漫的热门连载与独家推荐。即时更新章节、作者资讯与社区讨论，带你发现下一部必追漫画。",
       "inLanguage": "zh-CN",
-      "image": "https://shenqimanhua.github.io/logo.webp",
+      "image": "https://shenqimanhua.github.io/logo.webp"
     }
     </script>
     <script type="application/ld+json">
@@ -34,7 +34,7 @@
       "@type": "Organization",
       "name": "神奇漫画官方入口",
       "url": "https://shenqimanhua.github.io",
-      "logo": "https://shenqimanhua.github.io/logo.webp",
+      "logo": "https://shenqimanhua.github.io/logo.webp"
     }
     </script>
     <script type="application/ld+json">
@@ -136,6 +136,66 @@
             padding: 28px
         }
 
+        .notice-box {
+            background: linear-gradient(90deg, #fff6ee 80%, #fff1e3 100%);
+            border: 1px solid #e7d1c1;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(199, 123, 90, 0.08);
+            margin-bottom: 24px;
+            padding: 18px 18px 10px 18px;
+            color: #b26d1c;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+        .notice-box .small {
+            color: #af7952;
+            font-size: 15px;
+            margin-bottom: 7px;
+            display: block;
+            font-weight: 400;
+        }
+        .notice-box .del {
+            text-decoration: line-through;
+            color: #b4b2b1;
+            font-size: 15px;
+            margin-left: 8px;
+            font-weight: 400;
+        }
+        .notice-links {
+            margin: 0.5em 0 0 0;
+        }
+        .notice-links a {
+            display: inline-block;
+            margin: 8px 16px 0 0;
+            background: var(--accent-2);
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 7px;
+            font-size: 15px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: background .18s;
+        }
+        .notice-links a:hover {
+            background: var(--accent);
+        }
+        .notice-box .app-btn {
+            background: #f77d29;
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 7px;
+            font-size: 15px;
+            font-weight: 700;
+            display: inline-block;
+            margin-right: 12px;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: background .18s;
+        }
+        .notice-box .app-btn:hover {
+            background: #d65c11;
+        }
         header {
             display: flex;
             align-items: center;
@@ -392,6 +452,8 @@
 
 <body>
     <div class="wrap">
+        
+
         <header>
             <div class="brand">
                 <div class="logo">
@@ -409,6 +471,19 @@
         </header>
 
         <main>
+            <div class="notice-box" role="alert" aria-label="神奇漫画最新地址与app下载">
+                <div>🌟 神奇漫画 · 最新网址（2026.5.29）</div>
+                <span class="small">最新域名：
+                    <a href="https://shenqimanhua.cc" target="_blank" style="color:#da6213;text-decoration:underline;font-weight:700;">https://shenqimanhua.cc</a>
+                    <span class="del">弃用域名：https://www.shenqimanhua.com</span>
+                </span>
+                <div style="margin-top:10px;line-height:1.7;">
+                    🚀 神奇漫画 · 官方APP<br/>
+                    <span class="notice-links">
+                        <a class="app-btn" href="https://sqmh.app" target="_blank" rel="noopener">👉 官方APP下载</a>
+                    </span>
+                </div>
+            </div>
             <section class="hero" aria-labelledby="hero-title">
                 <div class="hero-left">
                     <span class="badge">每日更新 · 精选推荐</span>
