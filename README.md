@@ -1,4 +1,4 @@
-# 🎨 神奇漫画 (www.shenqimanhua.com)
+# 🎨 神奇漫画 (shenqimanhua.cc)
 
 欢迎来到 **神奇漫画**！这是一个专注于分享、推荐和探索漫画的站点。无论你是热爱经典日漫、韩漫、国漫，还是喜欢新兴的独立漫画，这里都能找到属于你的乐趣。
 
@@ -15,7 +15,7 @@
 
 ## 🚀 快速访问
 
-👉 [点击进入神奇漫画](https://www.shenqimanhua.com)
+👉 [点击进入神奇漫画](https://shenqimanhua.cc)
 
 ---
 
@@ -56,7 +56,7 @@
 
 ## 📬 联系我们
 
-- 官方网站：[https://www.shenqimanhua.com](https://www.shenqimanhua.com)  
+- 官方网站：[https://shenqimanhua.cc](https://www.shenqimanhua.com)  
 - GitHub：[https://github.com/shenqimanhua](https://github.com/shenqimanhua)
 
 ---
