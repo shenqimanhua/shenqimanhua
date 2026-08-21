@@ -6,7 +6,7 @@
 
 ## 🌟 神奇漫画 · 最新网址（2026.5.29）
 
-- 最新域名：https://shenqimanhua.cc  
+- 最新域名：https://shenqimanhua.net  
 - 弃用域名：~~https://www.shenqimanhua.com~~
 
 ---
